@@ -5,6 +5,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tables</title>
+    <style>
+        body {
+            font-family: Georgia, 'Times New Roman', Times, serif
+        }
+
+        table {
+            width: 50%;
+            border: 1px solid black;
+            margin: auto;
+            background-color: #00ffff;
+        }
+
+        th {
+            color: #df0b0b;
+            border: 1px solid black;
+            padding: 12px 9px;
+            text-align: left;
+            border-collapse: collapse;
+            /*it merges borders into one*/
+        }
+
+        td {
+            color: brown;
+            border: 1px solid black;
+            padding: 12px 9px;
+            text-align: left;
+        }
+
+        .salary {
+            background-color: #b2c6f1;
+            font-weight: bold;
+        }
+    </style>
 </head>
 
 <body>
@@ -16,10 +49,10 @@
                 <th>city</th>
                 <th>age</th>
                 <th>salary</th>
-             </tr>
+            </tr>
 
         </thead>
-        
+
 
         <tbody>
             <tr>
@@ -27,41 +60,41 @@
                 <td>mwangi</td>
                 <td>nairobi</td>
                 <td>21</td>
-                <td>60000</td>
+                <td class="salary">60000</td>
             </tr>
             <tr>
                 <td>jack</td>
                 <td>juma</td>
                 <td>mombasa</td>
                 <td>24</td>
-                <td>80000</td>
+                <td class="salary">80000</td>
             </tr>
 
-                <td>james</td>
-                <td>kamau</td>
-                <td>kisumu</td>
-                <td>30</td>
-                <td>100000</td>
+            <td>james</td>
+            <td>kamau</td>
+            <td>kisumu</td>
+            <td>30</td>
+            <td class="salary">100000</td>
             </tr>
             <tr>
                 <td>joseph</td>
                 <td>kimani</td>
                 <td>kakamega</td>
                 <td>28</td>
-                <td>90000</td>
+                <td class="salary">90000</td>
             </tr>
         </tbody>
     </table>
     <br><br>
-<!-- lists un ordered -->
- <ul>
-    <li>nairobi</li>
-    <li>mombasa</li>
-    <li>kisumu</li>
-    <li>kakamega</li>
-    <li>eldoret</li>
+    <!-- lists un ordered -->
+    <ul>
+        <li>nairobi</li>
+        <li>mombasa</li>
+        <li>kisumu</li>
+        <li>kakamega</li>
+        <li>eldoret</li>
 
- </ul>
+    </ul>
 
 </body>
 
