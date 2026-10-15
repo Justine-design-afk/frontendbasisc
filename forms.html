@@ -1,29 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forms</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Oi&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            background-color: #7fffd4;
+            font-family: "IBM Plex Serif", serif;
+        }
+
+        form {
+            width: 45%;
+            border: 1px solid #000000;
+            padding: 20px;
+            color: #050105;
+            margin: auto;
+
+        }
+
+        .mel {
+            display: block;
+        }
+        .xen{
+            width: 100%;
+            padding: 12px;
+            box-sizing: border-box;
+            margin-bottom: 14px;
+        }
+    </style>
 </head>
+
 <body>
     <!-- form inputs -->
-     <form action="">
-        <label for="full_name">full name</label>
-        <input type="text" name="full_name" id="full_name" placeholder="Enter your full name"><br><br>
-        <label for="email">email</label>
-        <input type="email" name="email" id="email" placeholder="Enter your email"><br><br>
-        <label for="password">password</label>
-        <input type="password" name="password" id="password" placeholder="Enter your password" required><br><br>
-        <label for="gender">gender</label>
+    <form action="">
+        <label class="mel" for="full_name">full name</label>
+        <input class="xen" type="text" name="full_name" id="full_name" placeholder="Enter your full name"><br><br>
+        <label class="mel" for="email">email</label>
+        <input class="xen" type="email" name="email" id="email" placeholder="Enter your email"><br><br>
+        <label class="mel" for="password">password</label>
+        <input class="xen" type="password" name="password" id="password" placeholder="Enter your password"
+            required><br><br>
+        <label class="mel" for="gender">gender</label>
         <input type="radio" name="gender" id="" value="male">
         <label for="male">male</label>
+        <br>
         <input type="radio" name="gender" id="" value="female">
-        <label for="female">female</label><br><br>
-        <label for="dob">date of birth</label>
-        <input type="date" name="dob" id="dob" placeholder="Enter your date of birth"><br><br>
-        
-        <label for="county">county</label>
-        <select name="county" id="county">
+        <label for="female">female</label><br>
+        <label class="mel" for="dob">date of birth</label>
+        <input class="xen" type="date" name="dob" id="dob" placeholder="Enter your date of birth"><br><br>
+
+        <label class="mel" for="county">county</label>
+        <select class="xen" name="county" id="county">
             <option value="">select your county</option>
             <option value="nairobi">nairobi</option>
             <option value="kisumu">kisumu</option>
@@ -32,8 +66,9 @@
 
         </select><br><br>
         <button type="submit">submit</button>
-     </form>    
+    </form>
 </body>
-    
+
 </body>
+
 </html>
