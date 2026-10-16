@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navigation</title>
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap');
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+             font-family: "Gravitas One", serif;
+        }
+        nav{
+            display: flex;
+            justify-content: center;
+            /* background-color: black; */
+        }
+        .nav-items{
+            width: 60%;
+            /* background-color: dimgray; */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid black;
+        }
+        .nav-items ul{
+            display: flex;
+            list-style-type: none;
+        
+        }
+        .nav-items li{
+            margin-right: 16px;
+            margin-left: 16px;
+
+        }
+        .nav-items a{
+            text-decoration: none;
+            color: #000;
+            text-transform: uppercase;
+        }
+        .nav-items a:hover{
+            color: #474242;
+            text-decoration: underline;
+        }
+        .nav-items img{
+            width: 48px;
+            height:48px;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <!-- semantic tags  -->
+     <nav>
+        <div class="nav-items">
+            <img src="images/icons8-instagram-logo-90.png" alt="company photo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">contact us</a></li>
+            </ul>
+        </div>
+
+     </nav>
+    
+</body>
+</html>
