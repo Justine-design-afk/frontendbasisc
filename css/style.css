@@ -23,9 +23,10 @@ p {
 /* media queries  */
 /* medium devices-tablets */
 @media screen and (min-width:768px) and (max-width:1023px) {
-    .row{
+    .row {
         flex-wrap: wrap;
     }
+
     .col {
         width: 48%;
         border: red;
@@ -37,17 +38,19 @@ p {
 
 
 }
+
 @media screen and (max-width:767px) {
-    .row{
+    .row {
         flex-wrap: wrap;
     }
-    .col{
+
+    .col {
         width: 100%;
 
     }
-    p{
+
+    p {
         color: hsl(46, 100%, 50%);
     }
-    
-}
 
+}
